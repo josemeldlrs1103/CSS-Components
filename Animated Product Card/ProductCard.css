@@ -71,7 +71,7 @@ body {
     width: 100%;
     height: 100px;
     text-align: center;
-    transition: 1s;
+    transition: 0.5s;
     z-index: 10;
 }
 
@@ -133,7 +133,7 @@ body {
     font-weight: bold;
 }
 
-.container .card .contentbox .price span:hover {
+.container .card .contentbox a:hover {
     background-color: #03A9F4;
 }
 
@@ -169,13 +169,13 @@ body {
     color: #111111;
     opacity: 0;
     transform: translateY(50px);
-    transition: 0.5s;
+    transition: 0.25s;
 }
 
 .container .card:hover .contentbox a {
     opacity: 1;
     transform: translateY(0px);
-    transition-delay: 0.75s;
+    transition-delay: 0.5s;
 }
 
 .image {
